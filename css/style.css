@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 405px;
+  height: 405px;
+  background-color: rgb(235, 235, 235);
+  position: relative;
+  overflow: hidden;
+}
+
+.circle-green {
+  position: absolute;
+  top:-103px;
+  left: -92px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background-color: green;
+  z-index: 1;
+}
+
+.rectangle {
+  position: absolute;
+  top: 163px;
+  left: 42px;
+  width: 330px;
+  height: 48px;
+  transform: rotate(47deg);
+  background-color: blue;
+  z-index: 2;
+}
+
+.triangle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 101px;
+  height: 111px;
+  background: linear-gradient(to right bottom, transparent 50%, red 50%);
+}
+
+.circle {
+  position: absolute;
+  top: 140px;
+  left: 227px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: green;
+  z-index: 3;
+}
+
+.rectangle-rounded {
+  position: absolute;
+  top: 273px;
+  left: 51px;
+  width: 303px;
+  height: 80px;
+  border-radius: 30px;
+  background-color: purple;
+  z-index: 3;
+}
